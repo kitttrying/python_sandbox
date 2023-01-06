@@ -27,7 +27,11 @@ a = x + y
 # print(a)
 
 # Casting
-# x = str(x)
+x = str(x) # string
+y = int(y) # integer liczba całkowita
+z = float(y) # liczba zmiennoprzecinkowa
 # print(type(x))
+# print(type(y), y) # wyżej jest int, dlatego y wyświetla się jako 2
+# print(type(z), z) # y = 2.0, bo najpierw zostalo zmienione na int i z powrotem na float
 
 
