@@ -20,5 +20,14 @@ VARIABLE RULES:
 
 # Multuple assigment
 x, y, name, is_cool = (1, 2.5, 'Ada', True)
+#print(x, y, name, is_cool)
 
-print ('Hello')
+# Basic math
+a = x + y
+# print(a)
+
+# Casting
+# x = str(x)
+# print(type(x))
+
+
