@@ -26,19 +26,19 @@ print(len(fruits))
 fruits_set = {'Apples', 'Oranges', 'Grapes'}
 
 #Check if in set
-print('Apples' in fruits_set)
-
-# Add to set
-fruits_set.add('Mango')
-print(fruits_set)
-
-#Remove from set
-fruits_set.remove('Grapes')
-print(fruits_set)
+#print('Apples' in fruits_set)
+#
+## Add to set
+#fruits_set.add('Mango')
+#
+##Remove from set
+#fruits_set.remove('Grapes')
+#
+##Add duplicate
+fruits_set.add('Apples')
 
 #Clear set
-fruits_set.clear()
-print(fruits_set)
+#fruits_set.clear()
 
 #Delete
 # del fruits_set
